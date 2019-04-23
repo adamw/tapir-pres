@@ -1,0 +1,15 @@
+http :8080?name=adam
+
+http :8080/books?fromYear=1992
+http :8080/books fromYear==1992 limit==1
+
+http :8080/books
+http :8080/books?fromYear=1897
+http :8080/books?limit=1
+http POST :8080/books/add Authorization:'Bearer Secret' title="Ubik" year:='{"year":1969}'
+
+http://localhost:8080/swagger/index.html
+
+implicit val actorSystem: ActorSystem = ActorSystem()
+implicit val materializer: ActorMaterializer = ActorMaterializer()
+Await.result(Http().bindAndHandle(routes, "localhost", 8080), 1.minute)

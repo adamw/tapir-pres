@@ -1,0 +1,26 @@
+.___________. __    __       ___      .__   __.  __  ___    
+|           ||  |  |  |     /   \     |  \ |  | |  |/  /    
+`---|  |----`|  |__|  |    /  ^  \    |   \|  | |  '  /     
+    |  |     |   __   |   /  /_\  \   |  . `  | |    <      
+    |  |     |  |  |  |  /  _____  \  |  |\   | |  .  \     
+    |__|     |__|  |__| /__/     \__\ |__| \__| |__|\__\    
+                                                            
+          ____    ____  ______    __    __
+          \   \  /   / /  __  \  |  |  |  |
+           \   \/   / |  |  |  | |  |  |  |
+            \_    _/  |  |  |  | |  |  |  |
+              |  |    |  `--'  | |  `--'  |
+              |__|     \______/   \______/
+
+
+* https://github.com/softwaremill/tapir
+
+* https://github.com/softwaremill/tapir-pres
+
+* https://tapir-scala.readthedocs.io
+
+* [Scala Times](http://scalatimes.com)
+
+* [SoftwareMill](http://www.softwaremill.com)
+
+* @adamwarski

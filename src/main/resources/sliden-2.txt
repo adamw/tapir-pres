@@ -1,0 +1,22 @@
+Tapir supports:
+
+* path, query, header, arbitrary-value inputs
+* header, status-code outputs
+
+* basic, digest, bearer-token, cookie-based authentication inputs
+
+* text, json bodies; custom media types
+* urlencoded & multipart forms
+* streaming bodies
+
+* server interpreters:
+  - akka-http
+  - http4s
+
+* OpenAPI/Swagger docs interpreter
+* sttp client interpreter
+
+* dedicated error/normal outputs
+* customisable decode failure handling
+* debug logging
+* stackable traits

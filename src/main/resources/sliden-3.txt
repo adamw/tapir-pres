@@ -1,0 +1,7 @@
+What is Functional Programming about?
+-------------------------------------
+
+1. functions
+
+2. (immutable) values
+

@@ -1,0 +1,10 @@
+The Problem(s)
+--------------
+
+* isn't akka-http / http4s good enough?
+
+* what about jax-rs? but annotations ...
+
+* swagger/openapi: writing yaml by hand?
+
+* clients?

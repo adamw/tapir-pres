@@ -1,0 +1,11 @@
+Tapir goals:
+
+* programmer-friendly, human-comprehensible types, that you are not afraid to write down
+
+* discoverable API through standard auto-complete
+
+* separate "business logic" from endpoint definition & documentation
+
+* based purely on case class-based, immutable and reusable data structures
+
+* reasonably type safe

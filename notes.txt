@@ -10,6 +10,33 @@ http POST :8080/books/add Authorization:'Bearer Secret' title="Ubik" year:='{"ye
 
 http://localhost:8080/swagger/index.html
 
+//
+
+    case class Book(title: String, year: Int)
+    val booksFrom1992 = List(
+      Book("Lords and Ladies", 1992),
+      Book("The English Patient", 1992),
+      Book("The Pelican Brief", 1992)
+    )
+
+//
+
+    type AuthToken = String
+    type ErrorMsg = String
+
+    case class Year(year: Int)
+    case class Book(title: String, year: Year)
+    var books = List(
+      Book("Lords and Ladies", Year(1992)),
+      Book("The Sorrows of Young Werther", Year(1774)),
+      Book("Iliad", Year(-8000)),
+      Book("Nad Niemnem", Year(1888)),
+      Book("The Art of Computer Programming", Year(1968)),
+      Book("Pharaoh", Year(1897))
+    )
+
+//
+
 implicit val actorSystem: ActorSystem = ActorSystem()
 implicit val materializer: ActorMaterializer = ActorMaterializer()
 Await.result(Http().bindAndHandle(routes, "localhost", 8080), 1.minute)

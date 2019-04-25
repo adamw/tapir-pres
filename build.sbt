@@ -5,7 +5,7 @@ name := "tapir-pres"
 organization := "com.softwaremill"
 scalaVersion := "2.12.8"
 
-val tapirVersion = "0.6"
+val tapirVersion = "0.6.1"
 val http4sVersion = "0.20.0"
 
 libraryDependencies ++= Seq(
